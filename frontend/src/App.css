@@ -1,38 +1,156 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar a:hover {
+  text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* styles.css */
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+width: 100%;
+padding: 10px;
+margin: 5px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+/* Estilos para el botón */
+button[type="submit"] {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #0056b3;
+}
+
+/* Estilos para el contenedor principal */
+.search-form-container {
+width: 80%;
+margin: 0 auto;
+}
+
+/* Estilos para los labels */
+label {
+display: block;
+font-weight: bold;
+}
+
+/* Estilos para el contenedor del formulario */
+form {
+margin-top: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th {
+background-color: #f2f2f2;
+font-weight: bold;
+}
+
+/* Estilos para las filas pares */
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+/* Estilos para el encabezado de la tabla */
+thead {
+background-color: #ddd;
+}
+
+/* Estilos para el texto del encabezado */
+th {
+font-weight: bold;
+}
+
+/* Estilos para las celdas de la tabla */
+td {
+padding: 10px;
+}
+
+/* Estilos para el texto en las celdas */
+td {
+font-size: 14px;
 }
